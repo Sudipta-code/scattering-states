@@ -1,15 +1,4 @@
-ACHFCSPSE_SCATTERING.  CALCULATING SCATTERING STATES IN LOCAL AND       
-1   NON-LOCAL COULOMB-LIKE POTENTIALS.  Z. PAPP.                        
-REF. IN COMP. PHYS. COMMUN. 70 (1992) 435                               
-*                                                                       
-*  program cspse_scattering                                             
-*     Zoltan Papp                                                       
-*       present address (1991):                                         
-*           Inst. Theor. Phys., Univ. Tubingen, Tubingen, Germany       
-*       permanent address:                                              
-*           Inst. Nucl. Res., Debrecen, Hungary                         
-*=================================================================      
-*                                                                       
+*  program cspse_scattering                                                  
 *  potential separable expansion on Coulomb-Sturmian  basis             
 *                                                                       
 *  Calculating Scattering States in Local and Non-local                 
@@ -900,9 +889,7 @@ c
                                                                         
         subroutine ch1f0(ap,w,nm,c)                                     
 *                                                                       
-*  Calculates the Chebyshev expansion of the binomial function.         
-*  See Y.L. Luke: Algorithms for the Computation of Mathematical        
-*  Functions, Academic Press, New York, 1977, p. 53.                    
+*  Calculates the Chebyshev expansion of the binomial function.                             
 *                                                                       
 *       (1+w*t)^(-ap)=sum_{i=0}^{nm-1} c_i (w) * T^{*}_i (t)            
 *                                                                       
@@ -966,15 +953,7 @@ c
         endif                                                           
 *                                                                       
         return                                                          
-        end                                                             
-*                                                                       
-*  further subroutines from the LINPACK library:                        
-*     zsifa, zsidi, zsisl, zgbfa, zgbsl, zgbcal, dcabs1,                
-*     izamax, zdotu, zaxpy, zdotc    and                                
-*  Coulomb function RCWF by                                             
-*   A.R.Barnett, D.H.Feng, J.W.Steed,L.J.B.Goldfarb, CPC 8 (1974) 377   
-*--------------------------------------------------------------------   
-*                                                                       
+        end                                                                                                                                    
              
              
              
@@ -1446,64 +1425,4 @@ c
              
              
              
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-880D+00      
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
+         
