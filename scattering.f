@@ -1,21 +1,6 @@
 ACHFCSPSE_SCATTERING.  CALCULATING SCATTERING STATES IN LOCAL AND       ACHF0000
-1   NON-LOCAL COULOMB-LIKE POTENTIALS.  Z. PAPP.                        ACHF0000
-REF. IN COMP. PHYS. COMMUN. 70 (1992) 435                               ACHF0000
-*                                                                       ACHF0001
-*  program cspse_scattering                                             ACHF0002
-*     Zoltan Papp                                                       ACHF0003
-*       present address (1991):                                         ACHF0004
-*           Inst. Theor. Phys., Univ. Tubingen, Tubingen, Germany       ACHF0005
-*       permanent address:                                              ACHF0006
-*           Inst. Nucl. Res., Debrecen, Hungary                         ACHF0007
-*=================================================================      ACHF0008
-*                                                                       ACHF0009
-*  potential separable expansion on Coulomb-Sturmian  basis             ACHF0010
-*                                                                       ACHF0011
-*  Calculating Scattering States in Local and Non-local                 ACHF0012
-*  Coulomb-like Potentials                                              ACHF0013
-*                                                                       ACHF0014
-*=================================================================      ACHF0015
+1   NON-LOCAL COULOMB-LIKE POTENTIALS.                                  ACHF0000
+
 *                                                                       ACHF0016
         implicit real*8 (a-h,o-z)                                       ACHF0017
         character*12 twbp,glag00,glagm05                                ACHF0018
